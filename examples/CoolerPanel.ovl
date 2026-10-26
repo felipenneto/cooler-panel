@@ -1,0 +1,89 @@
+[Master]
+Implementation=2
+FontFace=Consolas
+FontHeight=-16
+FontWeight=400
+ZoomRatio=1
+[Settings]
+RefreshPeriod=1000
+LockUserSettings=0
+[General]
+Sources=4
+Tables=0
+Layers=8
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source1]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source2]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source3]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Layer0]
+Name=CPU temperature caption
+Text=CPU °C
+PositionX=0
+PositionY=0
+TextColor=FFFFFF
+[Layer1]
+Name=CPU temperature
+Text=%CPU temperature%
+PositionX=130
+PositionY=0
+TextColor=FFFFFF
+[Layer2]
+Name=GPU1 temperature caption
+Text=GPU °C
+PositionX=0
+PositionY=24
+TextColor=FFFFFF
+[Layer3]
+Name=GPU1 temperature
+Text=%GPU1 temperature%
+PositionX=130
+PositionY=24
+TextColor=FFFFFF
+[Layer4]
+Name=CPU usage caption
+Text=CPU %
+PositionX=0
+PositionY=48
+TextColor=FFFFFF
+[Layer5]
+Name=CPU usage
+Text=%CPU usage%
+PositionX=130
+PositionY=48
+TextColor=FFFFFF
+[Layer6]
+Name=GPU1 usage caption
+Text=GPU %
+PositionX=0
+PositionY=72
+TextColor=FFFFFF
+[Layer7]
+Name=GPU1 usage
+Text=%GPU1 usage%
+PositionX=130
+PositionY=72
+TextColor=FFFFFF

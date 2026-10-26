@@ -1,0 +1,13 @@
+# Local executables, diagnostics, backups and release artifacts
+/app/
+/staging/
+/validation/
+/dist/
+/ANALISE-COOLER.md
+/LEIA-ME.md
+*.log
+__pycache__/
+.vs/
+.idea/
+Thumbs.db
+Desktop.ini

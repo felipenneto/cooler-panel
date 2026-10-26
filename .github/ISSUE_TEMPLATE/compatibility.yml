@@ -1,0 +1,32 @@
+name: Relatar compatibilidade de um cooler
+description: Informar modelo, identificadores e resultado de um teste de mostrador USB.
+title: "[Compatibilidade] Modelo do cooler"
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Marca, modelo exato e revisão
+      placeholder: Husky Glacier HWT700PT, revisão se disponível
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Versões do Cooler Panel, Windows x64 e RTSS; quais fontes/camadas de sensores estão disponíveis.
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Identificação USB e tamanho do relatório
+      description: Use Detectar painel ou --probe. Remova nomes de usuário e outros dados pessoais antes de colar resultados.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Resultado no mostrador físico
+      description: Diga o que apareceu no teste simulado e no monitoramento real. Identificador USB igual, sozinho, não comprova compatibilidade.
+    validations:
+      required: true
